@@ -4,9 +4,15 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="">
-      <h2>Get your plate now!!!!</h2>
-      <button>Buy Now!</button>
+    <div className=" h-[95vh] flex justify-center content-center w-screen">
+      <div className="w-full flex flex-col justify-center items-center gap-36">
+        {/* <h2 className="w-96 text-center">Get your plate now!!!!</h2> */}
+        <div>
+          <h3>Meal of the day:</h3>
+          <h4>Rice and Jerk Chicken</h4>
+        </div>
+        <button className="">Get your plate Now!</button>
+      </div>
     </div>
   );
 };
