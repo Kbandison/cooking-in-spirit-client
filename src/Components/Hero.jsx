@@ -5,8 +5,7 @@ import React from "react";
 const Hero = () => {
   return (
     <div className="">
-      <h1>Cooking in Spirit!</h1>
-      <h4>Get your plate now!!!!</h4>
+      <h2>Get your plate now!!!!</h2>
       <button>Buy Now!</button>
     </div>
   );
